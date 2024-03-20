@@ -10,10 +10,10 @@ export default function Scoreboard() {
         <div className="flex items-center justify-between">
           <div className="lg:ml-40 ml-10 space-x-8">
             <button className="bg-yellow-500 px-4 py-2 rounded-md text-gray-700 font-semibold tracking-wide cursor-pointer">
-              New Report
+              New Game
             </button>
             <button className="bg-yellow-500 px-4 py-2 rounded-md text-gray-700 font-semibold tracking-wide cursor-pointer">
-              Create
+              Your Stats
             </button>
           </div>
         </div>

@@ -268,7 +268,7 @@ function loadImages(callback) {
   var imgPaths = [];
   for (var key in resourceTypeToImageCanvas) {
     rTypes.push(key);
-    imgPaths.push('/assets/images/' + key + '.png');
+    imgPaths.push('src/assets/' + key + '.png');
   }
 
   preloadImages(imgPaths, function (images) {
@@ -675,7 +675,7 @@ function sizeCanvas() {
   mapCanvas.style.position = 'relative';
   mapCanvas.style.left = '50%';
   mapCanvas.style.top = '50%';
-  mapCanvas.style.transform = 'translate(-50%, -90%)';
+  mapCanvas.style.transform = 'translate(-50%)';
 }
 
 // http://stackoverflow.com/questions/2142535/how-to-clear-the-canvas-for-redrawing

@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import { useLocation, useNavigate } from 'react-router-dom';
 
 export default function Header() {
@@ -19,10 +20,13 @@ export default function Header() {
     <nav className="flex mx-auto p-6">
       <div className="flex items-center justify-between w-full">
         <div className="flex  justify-between md:px-6 space-x-10">
-          <div className=" flex items-center bg-yellow-500 hover:opacity-60 px-6 py-4 rounded-2xl ">
-            <h1 className="text-white font-bold text-2xl uppercase">
+          <div className="flex items-center bg-yellow-500 hover:opacity-60 px-6 py-4 rounded-2xl ">
+            <Link
+              to="AuthInputs"
+              className="text-white font-bold text-2xl uppercase"
+            >
               Catan SB
-            </h1>
+            </Link>
           </div>
           <ul className="flex font-medium space-x-8">
             {HEADER_TABS?.map((tab) => (
