@@ -1,15 +1,23 @@
-import AuthInputs from './components/AuthInputs.jsx';
-import Header from './components/Header.jsx';
-import Hero from './components/Hero.jsx';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Randomizer from './screens/Randomizer';
+import Scoreboard from './screens/Scoreboard';
+import About from './screens/About';
 
-export default function App() {
+const App = () => {
   return (
-    <>
-      <Hero />
-      {/* <Header /> */}
-      <main>
-        <AuthInputs />
-      </main>
-    </>
+    <Router>
+      <div className="app">
+        <Header />
+        <Routes>
+          <Route path="/randomizer" element={<Randomizer />} />
+          <Route path="/scoreboard" element={<Scoreboard />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
+
+export default App;
