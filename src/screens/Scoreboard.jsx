@@ -1,10 +1,164 @@
 export default function Scoreboard() {
   return (
-    <div className="bg-transparent p-20 rounded-md w-full">
+    // Ranking Section
+    <div className="bg-transparent p-16 rounded-md w-full">
       <div className="flex items-center justify-between pb-6">
+        <div className="flex items-center mx-auto">
+          <h2 className=" text-4xl font-extrabold text-yellow-800 ">
+            Hall of Champions
+          </h2>
+        </div>
+      </div>
+      <div>
+        <div className="mx-auto sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+          <div className="inline-block min-w-full shadow-lg rounded-lg overflow-hidden">
+            <table className="min-w-full leading-normal shadow-2xl">
+              <thead>
+                <tr>
+                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Name
+                  </th>
+                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Games Played
+                  </th>
+                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Games Won
+                  </th>
+                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Games 2nd
+                  </th>
+                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Since
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="rank-row px-5 py-5">
+                    <div className="flex items-center">
+                      <div className="ml-3">
+                        <p className="text-gray-900 whitespace-no-wrap">SEBB</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">Admin</p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">
+                      Jan 21, 2020
+                    </p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">43</p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                      <span
+                        aria-hidden
+                        className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                      ></span>
+                      <span className="relative">Activo</span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="rank-row px-5 py-5">
+                    <div className="flex items-center">
+                      <div className="ml-3">
+                        <p className="text-gray-900 whitespace-no-wrap">SEBB</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">Editor</p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">
+                      Jan 01, 2020
+                    </p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">77</p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                      <span
+                        aria-hidden
+                        className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                      ></span>
+                      <span className="relative">Activo</span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="rank-row px-5 py-5">
+                    <div className="flex items-center">
+                      <div className="ml-3">
+                        <p className="text-gray-900 whitespace-no-wrap">SEBB</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">Editor</p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">
+                      Jan 10, 2020
+                    </p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <p className="text-gray-900 whitespace-no-wrap">64</p>
+                  </td>
+                  <td className="rank-row px-5 py-5">
+                    <span className="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
+                      <span
+                        aria-hidden
+                        className="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
+                      ></span>
+                      <span className="relative">Suspended</span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="rank-row px-5 py-5">
+                    <div className="flex items-center">
+                      <div className="ml-3">
+                        <p className="text-gray-900 whitespace-no-wrap">SEBB</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="rank-row">
+                    <p className="text-gray-900 whitespace-no-wrap">Admin</p>
+                  </td>
+                  <td className="rank-row">
+                    <p className="text-gray-900 whitespace-no-wrap">
+                      Jan 18, 2020
+                    </p>
+                  </td>
+                  <td className="rank-row">
+                    <p className="text-gray-900 whitespace-no-wrap">70</p>
+                  </td>
+                  <td className="rank-row">
+                    <span className="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
+                      <span
+                        aria-hidden
+                        className="absolute inset-0 bg-red-200 opacity-50 rounded-full"
+                      ></span>
+                      <span className="relative">Inactive</span>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {/* Game Section */}
+      <div className="flex items-center justify-between py-6">
         <div>
           <h2 className="text-3xl font-extrabold text-yellow-800">
-            Hall of Champions
+            Games History
           </h2>
         </div>
         <div className="flex items-center justify-between">
@@ -83,13 +237,6 @@ export default function Scoreboard() {
                 <tr>
                   <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 w-10 h-10">
-                        <img
-                          className="w-full h-full rounded-full"
-                          src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
-                          alt=""
-                        />
-                      </div>
                       <div className="ml-3">
                         <p className="text-gray-900 whitespace-no-wrap">
                           Blake Bowman

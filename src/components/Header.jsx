@@ -21,10 +21,7 @@ export default function Header() {
       <div className="flex items-center justify-between w-full">
         <div className="flex  justify-between md:px-6 space-x-10">
           <div className="flex items-center bg-yellow-500 hover:opacity-60 px-6 py-4 rounded-2xl ">
-            <Link
-              to="AuthInputs"
-              className="text-white font-bold text-2xl uppercase"
-            >
+            <Link to="" className="text-white font-bold text-2xl uppercase">
               Catan SB
             </Link>
           </div>
@@ -52,13 +49,13 @@ export default function Header() {
           >
             Login
           </div>
-          <a
-            href="#"
-            onClick={() => togglePopup('signupPopup')}
+
+          <Link
+            to="/components/AuthInputs"
             className="px-8 font-bold text-white bg-yellow-500 hover:opacity-70 p-2 rounded-2xl"
           >
             Sign Up
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
