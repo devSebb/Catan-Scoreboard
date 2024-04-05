@@ -15,19 +15,19 @@ export default function Scoreboard() {
             <table className="min-w-full leading-normal shadow-2xl">
               <thead>
                 <tr>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
                     Name
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
                     Games Played
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
                     Games Won
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
                     Games 2nd
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
                     Since
                   </th>
                 </tr>
@@ -128,18 +128,18 @@ export default function Scoreboard() {
                       </div>
                     </div>
                   </td>
-                  <td className="rank-row">
+                  <td className="rank-row px-5 py-5">
                     <p className="text-gray-900 whitespace-no-wrap">Admin</p>
                   </td>
-                  <td className="rank-row">
+                  <td className="rank-row px-5 py-5">
                     <p className="text-gray-900 whitespace-no-wrap">
                       Jan 18, 2020
                     </p>
                   </td>
-                  <td className="rank-row">
+                  <td className="rank-row px-5 py-5">
                     <p className="text-gray-900 whitespace-no-wrap">70</p>
                   </td>
-                  <td className="rank-row">
+                  <td className="rank-row px-5 py-5">
                     <span className="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
                       <span
                         aria-hidden
@@ -178,34 +178,27 @@ export default function Scoreboard() {
             <table className="min-w-full leading-normal">
               <thead>
                 <tr>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
-                    Name
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Game Number
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
-                    Games Played
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Game Type
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
-                    Games Won
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Players
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
-                    Games 2nd
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    2nd Place
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
-                    Since
+                  <th className="px-5 py-3  bg-yellow-500 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+                    Winner
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 w-10 h-10">
-                        <img
-                          className="w-full h-full rounded-full"
-                          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
-                          alt=""
-                        />
-                      </div>
                       <div className="ml-3">
                         <p className="text-gray-900 whitespace-no-wrap">
                           Vera Carpenter
@@ -213,18 +206,18 @@ export default function Scoreboard() {
                       </div>
                     </div>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">Admin</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">
                       Jan 21, 2020
                     </p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">43</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
                       <span
                         aria-hidden
@@ -235,7 +228,7 @@ export default function Scoreboard() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <div className="flex items-center">
                       <div className="ml-3">
                         <p className="text-gray-900 whitespace-no-wrap">
@@ -244,18 +237,18 @@ export default function Scoreboard() {
                       </div>
                     </div>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">Editor</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">
                       Jan 01, 2020
                     </p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">77</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
                       <span
                         aria-hidden
@@ -266,15 +259,8 @@ export default function Scoreboard() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 w-10 h-10">
-                        <img
-                          className="w-full h-full rounded-full"
-                          src="https://images.unsplash.com/photo-1540845511934-7721dd7adec3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
-                          alt=""
-                        />
-                      </div>
                       <div className="ml-3">
                         <p className="text-gray-900 whitespace-no-wrap">
                           Dana Moore
@@ -282,18 +268,18 @@ export default function Scoreboard() {
                       </div>
                     </div>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">Editor</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">
                       Jan 10, 2020
                     </p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">64</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-500 bg-transparent text-sm">
                     <span className="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
                       <span
                         aria-hidden
@@ -304,15 +290,8 @@ export default function Scoreboard() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-5 py-5 bg-white text-sm">
+                  <td className="px-5 py-5 bg-transparent text-sm">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 w-10 h-10">
-                        <img
-                          className="w-full h-full rounded-full"
-                          src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&h=160&w=160&q=80"
-                          alt=""
-                        />
-                      </div>
                       <div className="ml-3">
                         <p className="text-gray-900 whitespace-no-wrap">
                           Alonzo Cox
@@ -320,18 +299,18 @@ export default function Scoreboard() {
                       </div>
                     </div>
                   </td>
-                  <td className="px-5 py-5 bg-white text-sm">
+                  <td className="px-5 py-5 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">Admin</p>
                   </td>
-                  <td className="px-5 py-5 bg-white text-sm">
+                  <td className="px-5 py-5 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">
                       Jan 18, 2020
                     </p>
                   </td>
-                  <td className="px-5 py-5 bg-white text-sm">
+                  <td className="px-5 py-5 bg-transparent text-sm">
                     <p className="text-gray-900 whitespace-no-wrap">70</p>
                   </td>
-                  <td className="px-5 py-5 bg-white text-sm">
+                  <td className="px-5 py-5 bg-transparent text-sm">
                     <span className="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
                       <span
                         aria-hidden
@@ -343,7 +322,7 @@ export default function Scoreboard() {
                 </tr>
               </tbody>
             </table>
-            <div className="px-5 py-5 bg-white border-t flex flex-col xs:flex-row items-center xs:justify-between">
+            <div className="px-5 py-5 bg-transparent border-t border-gray-500 flex flex-col xs:flex-row items-center xs:justify-between">
               <span className="text-xs xs:text-sm text-gray-900">
                 Showing 1 to 4 of 50 Entries
               </span>
